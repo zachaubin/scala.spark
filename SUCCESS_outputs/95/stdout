@@ -1,0 +1,61 @@
+ 3.0.1 stdout log page for driver-20210221132248-0005
+Back to Master
+
+Showing 1342 Bytes: 0 - 1342 of 1342
+Load More
+Starting EmpiricalObservation2_1995. If you see this something is running.
+pathAdder:3
+checkIt with ixx=3 and raw count is =3666405
+totalPathCount:3
+attempting to print contents of counts...
+(1,59589)
+(2,623004)
+(3,2983812)
+>>count=3666405
+percent at ixx=3 is 0.16489568801332224
+
+keep going at: 3
+pathAdder:4
+checkIt with ixx=4 and raw count is =12137319
+totalPathCount:4
+attempting to print contents of counts...
+(1,59589)
+(2,623004)
+(3,2983812)
+(4,8470914)
+>>count=12137319
+percent at ixx=4 is 0.5458730192496923
+
+keep going at: 4
+pathAdder:5
+checkIt with ixx=5 and raw count is =24731673
+totalPathCount:5
+attempting to print contents of counts...
+(1,59589)
+(2,623004)
+(3,2983812)
+(4,8470914)
+(5,12594354)
+>>count=24731673
+percent at ixx=5 is 1.1123010783193634
+DONE DONE DONE DONE DONE :5
+ >> FINAL RAW COUNT << 
+   >> 24731673 << 
+pathAdder:6
+checkIt with ixx=6 and raw count is =35146311
+totalPathCount:6
+attempting to print contents of counts...
+(1,59589)
+(2,623004)
+(3,2983812)
+(4,8470914)
+(5,12594354)
+(6,10414638)
+>>count=35146311
+percent at ixx=6 is 1.5806969315924444
+DONE DONE DONE DONE DONE :6
+ >> FINAL RAW COUNT << 
+   >> 35146311 << 
+caught something? ixx:6 with e:org.apache.hadoop.mapred.FileAlreadyExistsException: Output directory hdfs://richmond:30151/output_emp2_95 already exists
+in the finally block... did it write?
+Load New

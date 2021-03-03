@@ -1,0 +1,63 @@
+Starting EmpiricalObservation2_1993. If you see this something is running.
+pathAdder:3
+checkIt with ixx=3 and raw count is =91490
+totalPathCount:3
+attempting to print contents of counts...
+(1,5716)
+(2,26410)
+(3,59364)
+>>count=91490
+percent at ixx=3 is 0.10522223870692461
+keep going at: 3
+pathAdder:4
+checkIt with ixx=4 and raw count is =210232
+totalPathCount:4
+attempting to print contents of counts...
+(1,5716)
+(2,26410)
+(3,59364)
+(4,118742)
+>>count=210232
+percent at ixx=4 is 0.24178688040041726
+keep going at: 4
+pathAdder:5
+checkIt with ixx=5 and raw count is =390020
+totalPathCount:5
+attempting to print contents of counts...
+(1,5716)
+(2,26410)
+(3,59364)
+(4,118742)
+(5,179788)
+>>count=390020
+percent at ixx=5 is 0.44856025292900575
+keep going at: 5
+pathAdder:6
+checkIt with ixx=6 and raw count is =618442
+totalPathCount:6
+attempting to print contents of counts...
+(1,5716)
+(2,26410)
+(3,59364)
+(4,118742)
+(5,179788)
+(6,228422)
+>>count=618442
+percent at ixx=6 is 0.7112673707551412
+keep going at: 6
+pathAdder:7
+checkIt with ixx=7 and raw count is =860270
+totalPathCount:7
+attempting to print contents of counts...
+(1,5716)
+(2,26410)
+(3,59364)
+(4,118742)
+(5,179788)
+(6,228422)
+(7,241828)
+>>count=860270
+percent at ixx=7 is 0.9893926690611655
+DONE DONE DONE DONE DONE :7
+pathAdder:8
+caught something? ixx:8

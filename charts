@@ -1,0 +1,98 @@
+# Online Python compiler (interpreter) to run Python online.
+# Write Python 3 code in this online editor and run it.
+# Get started with interactive Python!
+# Supports Python Modules: builtins, math,pandas, scipy 
+# matplotlib.pyplot, numpy, operator, processing, pygal, random, 
+# re, string, time, turtle, urllib.request
+import matplotlib.pyplot as plt
+import pandas as pd
+import numpy as np
+import scipy as sp
+
+
+
+# edges = [152, 2862, 11379, 29808, 58927, 98307, 142934, 201300, 265408, 335131, 348478, 348478]
+
+# nodes = [855, 2852, 5746, 9190, 13129, 17381, 22102, 27143, 32362, 37675, 38557, 38557]
+# n = [1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003]
+
+# fig, ax = plt.subplots()
+
+# for i, txt in enumerate(n):
+#     ax.annotate(txt, (nodes[i], edges[i]))
+
+# plt.plot(nodes,edges,'-ok',color='navy')
+
+# ax.set_xscale("log")
+# ax.set_yscale("log")
+
+# plt.xlabel(r'Number of Nodes')
+# plt.ylabel(r'Number of Edges')
+# ax.grid(True)
+
+
+
+# plt.title(r'Empirical Observation 1')
+# plt.show()
+
+
+# //---------------------------------------
+# //t(1992) Nodes: 855
+# //t(1992) Edges: 152
+# //---------------------------------------
+# //t(1993) Nodes: 2852
+# //t(1993) Edges: 2862
+# //---------------------------------------
+# //t(1994) Nodes: 5746
+# //t(1994) Edges: 11379
+# //---------------------------------------
+# //t(1995) Nodes: 9190
+# //t(1995) Edges: 29808
+# //---------------------------------------
+# //t(1996) Nodes: 13129
+# //t(1996) Edges: 58927
+# //---------------------------------------
+# //t(1997) Nodes: 17381
+# //t(1997) Edges: 98307
+# //---------------------------------------
+# //t(1998) Nodes: 22102
+# //t(1998) Edges: 142934
+# //---------------------------------------
+# //t(1999) Nodes: 27143
+# //t(1999) Edges: 201300
+# //---------------------------------------
+# //t(2000) Nodes: 32362
+# //t(2000) Edges: 265408
+# //---------------------------------------
+# //t(2001) Nodes: 37675
+# //t(2001) Edges: 335131
+# //---------------------------------------
+# //t(2002) Nodes: 38557
+# //t(2002) Edges: 348478
+# //---------------------------------------
+# //t(2003) Nodes: 38557
+# //t(2003) Edges: 348478
+# //---------------------------------------
+
+
+
+
+effectiveDiameter = [1.807142857, 6.678588501, 5.373044214, 4.625193218, 4.279176229, 3.791790919]
+year = [1992, 1993, 1994, 1995, 1996, 1997]
+
+fig, ax = plt.subplots()
+
+
+plt.plot(year,effectiveDiameter,'-ok',color='navy')
+
+# ax.set_xscale("log")
+# ax.set_yscale("log")
+
+plt.xlabel(r'Effective Diameter')
+plt.ylabel(r'Year')
+ax.grid(True)
+
+
+
+plt.title(r'Empirical Observation 2')
+plt.show()

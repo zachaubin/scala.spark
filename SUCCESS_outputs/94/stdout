@@ -1,0 +1,53 @@
+Starting EmpiricalObservation2_1994. If you see this something is running.
+pathAdder:3
+checkIt with ixx=3 and raw count is =786694
+totalPathCount:3
+attempting to print contents of counts...
+(1,22742)
+(2,169364)
+(3,594588)
+>>count=786694
+percent at ixx=3 is 0.11767602512575066
+
+keep going at: 3
+pathAdder:4
+checkIt with ixx=4 and raw count is =2368154
+totalPathCount:4
+attempting to print contents of counts...
+(1,22742)
+(2,169364)
+(3,594588)
+(4,1581460)
+>>count=2368154
+percent at ixx=4 is 0.3542355091123702
+
+keep going at: 4
+pathAdder:5
+checkIt with ixx=5 and raw count is =4926932
+totalPathCount:5
+attempting to print contents of counts...
+(1,22742)
+(2,169364)
+(3,594588)
+(4,1581460)
+(5,2558778)
+>>count=4926932
+percent at ixx=5 is 0.7369851223282051
+
+keep going at: 5
+pathAdder:6
+checkIt with ixx=6 and raw count is =7848290
+totalPathCount:6
+attempting to print contents of counts...
+(1,22742)
+(2,169364)
+(3,594588)
+(4,1581460)
+(5,2558778)
+(6,2921358)
+>>count=7848290
+percent at ixx=6 is 1.1739705288640534
+DONE DONE DONE DONE DONE :6
+ >> FINAL RAW COUNT << 
+   >> 7848290 << 
+pathAdder:7

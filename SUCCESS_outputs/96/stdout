@@ -1,0 +1,55 @@
+Starting EmpiricalObservation2_1996. If you see this something is running.
+pathAdder:3
+checkIt with ixx=3 and raw count is =10853452
+totalPathCount:3
+attempting to print contents of counts...
+(1,117804)
+(2,1583592)
+(3,9152056)
+>>count=10853452
+percent at ixx=3 is 0.21532059798664083
+
+keep going at: 3
+pathAdder:4
+checkIt with ixx=4 and raw count is =36382502
+totalPathCount:4
+attempting to print contents of counts...
+(1,117804)
+(2,1583592)
+(3,9152056)
+(4,25529050)
+>>count=36382502
+percent at ixx=4 is 0.7217889835317055
+
+keep going at: 4
+pathAdder:5
+checkIt with ixx=5 and raw count is =68558974
+totalPathCount:5
+attempting to print contents of counts...
+(1,117804)
+(2,1583592)
+(3,9152056)
+(4,25529050)
+(5,32176472)
+>>count=68558974
+percent at ixx=5 is 1.3601349394672368
+DONE DONE DONE DONE DONE :5
+ >> FINAL RAW COUNT << 
+   >> 68558974 << 
+pathAdder:6
+checkIt with ixx=6 and raw count is =88488926
+totalPathCount:6
+attempting to print contents of counts...
+(1,117804)
+(2,1583592)
+(3,9152056)
+(4,25529050)
+(5,32176472)
+(6,19929952)
+>>count=88488926
+percent at ixx=6 is 1.7555233543683255
+DONE DONE DONE DONE DONE :6
+ >> FINAL RAW COUNT << 
+   >> 88488926 << 
+caught something? ixx:6 with e:org.apache.hadoop.mapred.FileAlreadyExistsException: Output directory hdfs://richmond:30151/output_emp2_96 already exists
+in the finally block... did it write?
